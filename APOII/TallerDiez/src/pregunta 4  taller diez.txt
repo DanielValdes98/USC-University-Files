@@ -1,0 +1,22 @@
+Sobrecarga de constructores
+• Los constructores asignan valores iniciales a las 
+variables de instancia de una clase
+• Los constructores dentro de una clase se declaran 
+como métodos
+• La sobrecarga de un constructor significa tener más de 
+un constructor con el mismo nombre pero diferentes 
+tipos y/o cantidad de argumentos
+
+Cómo funciona la sobrecarga de constructores 
+• La sobrecarga de constructores funciona de la siguiente 
+manera:
+−Java lee al constructor en base a los argumentos que se le 
+pasen
+−Una vez que identifica el nombre del constructor, compara los 
+tipos de argumentos
+−Si los tipos de argumentos no coinciden con el primer 
+constructor de ese nombre, continuará con el segundo y el 
+tercero y así sucesivamente hasta identificar que el nombre 
+del constructor y el tipo de argumento coinciden
+−Si no encuentra una coincidencia, el programa no se 
+compilará
